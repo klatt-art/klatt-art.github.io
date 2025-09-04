@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>klatt_art - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #e6e6e6;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #bbb;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #f5f5f5;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e1e;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+      color: #9ad0ff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>klatt_art</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Welcome to the official portfolio of <strong>Sara Barbara Klatt</strong> – painter, sculptor, and multidisciplinary artist.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="gallery">
+      <!-- Tutaj dodasz swoje zdjęcia, np.: -->
+      <!-- <img src="images/painting1.jpg" alt="Painting 1"> -->
+      <!-- <img src="images/sculpture1.jpg" alt="Sculpture 1"> -->
+    </div>
+    <p style="margin-top:20px;">More works coming soon...</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Sara Barbara Klatt, born in 1999, is a dedicated artist from Poland whose creative adventure began in early childhood. 
+      Immersed in art from the age of six and actively exploring painting, drawing, and sculpture by thirteen, she has developed a multifaceted artistic practice.
+    </p>
+    <p>
+      An early fascination with baroque art and human anatomy set the stage for her diverse work. Sara refined her skills at a music school, 
+      enriched her perspective at an art high school in Olsztyn, and earned her master’s degree at the Academy of Fine Arts in Katowice, 
+      specializing in painting with an added focus on sculpture.
+    </p>
+    <p>
+      She experiments with various techniques primarily employing oil paints and oil sprays to explore a broad range of themes. 
+      Her work spans from evocative floral expressions that reveal inner beauty to explorations of facial expressions, 
+      the raw allure of naked human anatomy, and dramatic contrasts between light and dark. Additionally, 
+      she has ventured into the delicate balance between restraint and liberation.
+    </p>
+    <p>Each creation stands as a testament to her ever-evolving artistic adventure.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me at: <a href="mailto:saraklatt@wp.pl">saraklatt@wp.pl</a></p>
+    <p>Instagram: <a href="https://instagram.com/" target="_blank">@your_instagram_here</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 klatt_art | All rights reserved.
+  </footer>
+</body>
+</html>
